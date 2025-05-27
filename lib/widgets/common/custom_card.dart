@@ -18,7 +18,7 @@ class CustomCard extends StatelessWidget {
   final double borderWidth;
 
   const CustomCard({
-    Key? key,
+    super.key,
     required this.child,
     this.title,
     this.titleWidget,

@@ -41,7 +41,7 @@ class CustomTextField extends StatelessWidget {
   final double borderRadius;
 
   const CustomTextField({
-    Key? key,
+    super.key,
     required this.label,
     this.hint,
     this.errorText,

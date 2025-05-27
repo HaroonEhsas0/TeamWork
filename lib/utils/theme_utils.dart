@@ -19,10 +19,10 @@ class ThemeUtils {
         foregroundColor: Colors.white,
         elevation: 0,
       ),
-      cardTheme: CardTheme(
+      cardTheme: const CardThemeData(
         elevation: AppConstants.defaultElevation,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(AppConstants.defaultBorderRadius),
+          borderRadius: BorderRadius.all(Radius.circular(AppConstants.defaultBorderRadius)),
         ),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
@@ -80,7 +80,7 @@ class ThemeUtils {
           borderRadius: BorderRadius.circular(AppConstants.defaultBorderRadius),
         ),
       ),
-      tabBarTheme: const TabBarTheme(
+      tabBarTheme: const TabBarThemeData(
         labelColor: Colors.white,
         unselectedLabelColor: Colors.white70,
         indicator: BoxDecoration(
@@ -110,8 +110,7 @@ class ThemeUtils {
         primary: AppConstants.primaryColor,
         secondary: AppConstants.accentColor,
         error: AppConstants.errorColor,
-        surface: Colors.grey.shade900,
-        background: Colors.black,
+        surface: Colors.black,
       ),
       scaffoldBackgroundColor: Colors.black,
       appBarTheme: AppBarTheme(
@@ -119,7 +118,7 @@ class ThemeUtils {
         foregroundColor: Colors.white,
         elevation: 0,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: AppConstants.defaultElevation,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppConstants.defaultBorderRadius),
@@ -183,7 +182,7 @@ class ThemeUtils {
         ),
         backgroundColor: Colors.grey.shade800,
       ),
-      tabBarTheme: const TabBarTheme(
+      tabBarTheme: const TabBarThemeData(
         labelColor: Colors.white,
         unselectedLabelColor: Colors.white70,
         indicator: BoxDecoration(

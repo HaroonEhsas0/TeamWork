@@ -62,7 +62,7 @@ class LocalizationUtils {
     try {
       return localizations.toString();
     } catch (e) {
-      print('Error getting localized string for key: $key, error: $e');
+      // Error occurred while getting localized string for key: $key
       return key;
     }
   }

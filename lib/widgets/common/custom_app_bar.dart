@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../../utils/constants.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
@@ -15,7 +14,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Widget? flexibleSpace;
 
   const CustomAppBar({
-    Key? key,
+    super.key,
     required this.title,
     this.actions,
     this.leading,
@@ -71,7 +70,7 @@ class CustomSliverAppBar extends StatelessWidget {
   final bool automaticallyImplyLeading;
 
   const CustomSliverAppBar({
-    Key? key,
+    super.key,
     required this.title,
     this.actions,
     this.leading,
