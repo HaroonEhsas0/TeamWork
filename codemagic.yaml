@@ -38,10 +38,12 @@ workflows:
       email:
         recipients:
           - user@example.com
-      google_play:
-        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
-        track: internal
-        submit_as_draft: true
+      # Google Play publishing will be configured later
+      # Uncomment when credentials are properly set up in Codemagic
+      # google_play:
+      #   credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+      #   track: internal
+      #   submit_as_draft: true
 
   ios-workflow:
     name: iOS Workflow
