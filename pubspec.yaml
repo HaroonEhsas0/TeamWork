@@ -81,7 +81,7 @@ dependencies:
   
   # Charts and data visualization
   fl_chart: ^0.66.2
-  syncfusion_flutter_charts: ^24.2.3
+  syncfusion_flutter_charts: ^29.2.5
   
   # PDF generation and reports
   pdf: ^3.11.2
