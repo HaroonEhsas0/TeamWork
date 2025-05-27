@@ -48,6 +48,8 @@ workflows:
     name: iOS Workflow
     instance_type: mac_mini_m1
     max_build_duration: 60
+    integrations:
+      app_store_connect: TeamWork-AppStore-API-Key
     environment:
       flutter: stable
       xcode: latest
